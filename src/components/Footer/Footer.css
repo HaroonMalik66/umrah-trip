@@ -1,0 +1,40 @@
+.Footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+}
+.container-f {
+  min-width: 70%;
+  max-width: 95%;
+}
+.footbar {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.footbar-element {
+  cursor: pointer;
+}
+.footbar-element > a {
+  color: white;
+  font-size: small;
+}
+.footbar-element > a:hover {
+  color: var(--orange);
+}
+.footerText {
+  text-align: center;
+  font-size: small;
+}
+
+@media screen and (max-width: 768px) {
+  .footbar {
+    padding: 0;
+    flex-direction: column;
+  }
+}

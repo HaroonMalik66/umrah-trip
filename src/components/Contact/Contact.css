@@ -1,0 +1,64 @@
+.contact {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.email-icon {
+  width: 2rem;
+  background-color: var(--bluish);
+}
+.call-icon {
+  width: 2rem;
+  background-color: var(--orange);
+}
+.text-container-c {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.btn-container-c {
+  display: flex;
+  gap: 1rem;
+}
+.email-btn {
+  background-color: var(--bluish);
+}
+.call-btn {
+  background-color: var(--orange);
+}
+.call-btn,
+.email-btn {
+  border-radius: 5px;
+  display: flex;
+  gap: 1rem;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .btn-container-c {
+    flex-direction: column;
+  }
+  .btn-container-c > a {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+  }
+  .contact {
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .left-c > h3,
+  .right-c > h3 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+  }
+  .email-btn,
+  .call-btn {
+    width: 15rem;
+  }
+}

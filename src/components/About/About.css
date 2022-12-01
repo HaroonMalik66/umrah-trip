@@ -1,0 +1,53 @@
+.About {
+  padding: 3rem;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+.about-1 {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.perks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 12rem;
+}
+.perk-title {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+
+  margin: 0.5rem;
+}
+.perk-text {
+  font-size: 0.8rem;
+  text-align: center;
+  color: var(--darkgray);
+}
+
+.about-2 {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  margin: auto;
+  color: var(--darkgray);
+}
+.about-2 > h3 {
+  text-align: center;
+  margin-top: 3rem;
+}
+.about-2 > span {
+  text-align: justify;
+  line-height: 22px;
+}
+@media screen and (max-width: 768px) {
+  .about-1 {
+    flex-direction: column;
+  }
+}

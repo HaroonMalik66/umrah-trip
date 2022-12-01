@@ -1,0 +1,44 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem;
+  padding-right: 0.5rem;
+}
+
+.logo {
+  background-color: #fff;
+  margin: 1rem;
+  border-radius: 5px;
+}
+.header-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  color: white;
+}
+.header-menu > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-menu > li:hover {
+  cursor: pointer;
+  color: var(--orange);
+}
+.btn-navbar {
+  background: var(--orange);
+}
+@media screen and (max-width: 768px) {
+  .Header > :nth-child(2) {
+    position: fixed;
+    right: 2rem;
+    top: 1rem;
+    z-index: 99;
+  }
+  .header-menu {
+    flex-direction: column;
+    background-color: var(--darkgray);
+    padding: 2rem;
+  }
+}
