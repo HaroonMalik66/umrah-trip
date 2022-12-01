@@ -41,5 +41,6 @@
   .footbar {
     padding: 0;
     flex-direction: column;
+    line-height: 2rem;
   }
 }
