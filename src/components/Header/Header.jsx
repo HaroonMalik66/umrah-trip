@@ -29,30 +29,32 @@ const Header = () => {
       ) : (
         <ul className="header-menu">
           <li>
-            <Link
-              onClick={() => setMenuOpened(false)}
-              to="home"
-              spy
-              smooth
-              activeClass="active"
-            >
-              HOME
-            </Link>
+            <button className="nav-item">
+              <Link
+                onClick={() => setMenuOpened(false)}
+                to="home"
+                spy
+                smooth
+                activeClass="active"
+              >
+                HOME
+              </Link>
+            </button>
           </li>
           <li>
-            <a onClick={() => setMenuOpened(false)} to="programs" spy smooth>
+            <button className="nav-item" onClick={() => setMenuOpened(false)}>
               B2B AGENT
-            </a>
+            </button>
           </li>
           <li>
-            <a onClick={() => setMenuOpened(false)} to="reasons" spy smooth>
+            <button className="nav-item" onClick={() => setMenuOpened(false)}>
               PACKAGES
-            </a>
+            </button>
           </li>
           <li>
-            <a onClick={() => setMenuOpened(false)} to="plans" spy smooth>
+            <button className="nav-item" onClick={() => setMenuOpened(false)}>
               NEWS
-            </a>
+            </button>
           </li>
 
           <li>

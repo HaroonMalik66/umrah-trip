@@ -20,12 +20,17 @@
 .footbar-element {
   cursor: pointer;
 }
-.footbar-element > a {
+.footbar-element > button {
   color: white;
   font-size: small;
+  background: transparent;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1rem;
 }
-.footbar-element > a:hover {
+.footbar-element > button:hover {
   color: var(--orange);
+  cursor: pointer;
 }
 .footerText {
   text-align: center;

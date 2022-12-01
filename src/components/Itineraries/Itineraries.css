@@ -9,11 +9,22 @@
 }
 .view-all {
   padding-right: 2rem;
+  background-color: transparent;
+  border: none;
+  color: var(--bluish);
+  font-size: 1.3rem;
+}
+.view-all:hover {
+  cursor: pointer;
+  color: var(--orange);
 }
 .right-arrow {
-  width: 1rem;
-  background-color: blue;
+  width: 0.7rem;
+  background-color: var(--bluish);
   padding: 2px;
+}
+.view-all:hover .right-arrow {
+  background-color: var(--orange);
 }
 .cards-box-i {
   display: flex;

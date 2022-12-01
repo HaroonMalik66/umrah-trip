@@ -15,10 +15,10 @@ const Itineraries = () => {
           Umrah Itineraries by <span className="bold">Pilgrims</span>
         </span>
 
-        <a href="#" className="view-all">
+        <button className="view-all">
           {"view all "}
           <img src={RightArrow} alt=" " className="right-arrow" />
-        </a>
+        </button>
       </div>
 
       <div className="cards-box-i">

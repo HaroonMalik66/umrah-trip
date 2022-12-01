@@ -8,24 +8,26 @@ function Footer() {
       <div className="container-f">
         <ul className="footbar">
           <li className="footbar-element">
-            <Link to="home" spy smooth>
-              HOME
-            </Link>
+            <button>
+              <Link to="home" spy smooth>
+                HOME
+              </Link>
+            </button>
           </li>
           <li className="footbar-element">
-            <a href="#">NEWS</a>{" "}
+            <button>NEWS</button>
           </li>
           <li className="footbar-element">
-            <a href="#">UMRAH PACKGAES</a>{" "}
+            <button>UMRAH PACKGAES</button>
           </li>
           <li className="footbar-element">
-            <a href="#">TERMS & CONNDITIONS</a>{" "}
+            <button>TERMS & CONNDITIONS</button>
           </li>
           <li className="footbar-element">
-            <a href="#">PRIVACY POLIICY</a>{" "}
+            <button>PRIVACY POLIICY</button>
           </li>
           <li className="footbar-element">
-            <a href="#">B2B AGENT</a>{" "}
+            <button>B2B AGENT</button>
           </li>
         </ul>
         <hr />

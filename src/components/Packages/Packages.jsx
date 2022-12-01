@@ -14,10 +14,10 @@ const Packages = () => {
         <span>
           Best Umrah <span className="bold">Packages</span>
         </span>
-        <a href="#" className="view-all">
+        <button className="view-all">
           {"view all "}
           <img src={RightArrow} alt=" " className="right-arrow" />
-        </a>
+        </button>
       </span>
       <div className="cards-box-i">
         {pData.map((p) => (
